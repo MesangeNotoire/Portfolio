@@ -1,0 +1,53 @@
+:root {
+--pacific-cyan: #3891A6;
+--beige: #F1F0EA;
+--light-beige: #F9F8F4;
+--ink-black: #05204A;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-beige);
+  color: var(--ink-black);
+  text-decoration: none;
+  a{
+    text-decoration: none;
+    color: var(--ink-black);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2rem;
+    gap: 1rem;
+    display: flex;
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--beige);
+  padding: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+#logo {
+    height: 4rem;
+    width: auto;
+    display: flex;
+    justify-self: flex-start;
+  }
+
+#topmenu {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
