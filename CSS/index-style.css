@@ -1,5 +1,5 @@
 :root {
---pacific-cyan: #3891A6;
+--pacific-cyan: #067BC2;
 --beige: #F1F0EA;
 --light-beige: #F9F8F4;
 --ink-black: #05204A;
@@ -7,6 +7,44 @@
   font-family: "Bricolage Grotesque", sans-serif;
 
 }
+
+a:hover {
+  color: var(--pacific-cyan);
+  text-decoration: underline;
+}
+
+h1, h2{
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: var(--pacific-cyan);
+  text-align: left;
+}
+
+h3, h4{
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  color: var(--pacific-cyan);
+  text-align: left;
+}
+
+h1 {
+  font-size: 28pt;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22pt;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20pt;
+  margin: 0;
+}
+
+h4 {
+  font-size: 17pt;
+  margin: 0;
+}
+
 
 html * {
   box-sizing: border-box;
@@ -56,3 +94,42 @@ nav {
   align-items: center;
 }
 
+
+.banner {
+    background-image: url(../resources/banner2.png);
+    background-size:contain;
+    height: 20rem;
+
+}
+
+#description {
+  padding: 1rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  gap: 9rem;
+  padding: 2rem;
+}
+
+#button1, #button2 {
+    background-color: #c21255;
+    border-radius: 8px;
+    border-style:initial;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0, rgba(27, 31, 35, 0.15) 0 0 0 1px inset;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px 16px;
+    text-align: center;
+}
